@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This sets the viewport, which provides the browser with instructions on controlling the page's dimensions etc.-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--This is the reference to my external style sheet; all my styles are on one style sheet-->
+    <title>About Me</title>
+    <!--This sets the title of the page in the tab on the browser-->
+</head>
+
+<body>
+    <!--All my content goes inside the body because it contains all the elements of the HTML document-->
+
+    <div id="Container">
+        <!--div tag used to contain all of the HTML elements; it is not closed here - it is closed at the bottom of the HTML document-->
+        <header>
+            <!--Header is directly at the top of the page-->
+            <h1>Anand Prajapati's E-Portfolio</h1>
+            <!--Title of my website; it is text to help with accessibility - it is top of the page-->
+            <!--h1 means that it is a heading and has a set style-->
+        </header>
+
+        <nav>
+            <!--This is a navigation bar under the header-->
+            <ul>
+                <!--This specifies that my navigation bar links are in a unordered list-->
+                <li><a href="Home.html">About Me</a></li>
+                <!--Navigation bar links; list tag used on each link so they can form a list of items-->
+                <li><a href="Page2.html">Web Development & Programming</a></li>
+                <li><a href="Page3.html">IS & Computer Fundamentals</a></li>
+                <li><a href="Page4.html">Development Plan</a></li>
+            </ul>
+
+        </nav>
+
+        <aside id="FirstImage">
+        <img src="Images/Me.jpeg" alt="Photo of Me"/>
+        </aside>
+        <!--This is an image of me, therefore I have used the image tag-->
+
+        <article class="ContactInfo">
+            <!--Article has been used here to specify some information; class has been used so all the paragraphs within the article can be styled together-->
+            <p>Anand Prajapati</p>
+            <!--This defines a paragraph; all the paragraphs have the same style-->
+            <p>Street name</p>
+            <p>Address line 1</p>
+            <p>Address line 2</p>
+            <p>Mobile</p>
+            <p>E-Mail</p>
+        </article>
+
+        <section class="BoxStyle">
+            <!--Section used here to define a section of information on the document-->
+            <!--The section is a class because the style is used multiple times throughout the website-->
+            <h1 class="MainHeading">About Me</h1>
+            <!--The h1 is a class because the heading is used multiple times on the document-->
+            <!--The h1 and the p are inside the section tag-->
+            <p class="MainText"> My name is Anand Prajapati, and I am currently studying Computing at Manchester Metropolitan University. In my spare time, I enjoy using After Effects to create compositions with the use of visual effects - this is something I have a huge interest in; I have developed my skills through tutorials on the internet over time. When I do get time, though, I try to learn more advanced visual effects in order to create something more extraordinary. I chose to study Computing at MMU because I knew that Java is something that is currently in demand - therefore I wanted to develop those skills to maybe develop something of my own in the future. Along with that, another reason why I chose Computing was because it included web development. This is something I have an interest in because I do already have some knowledge on HTML and CSS - and I wanted to expand my knowledge on web development by learning how to add animations using Javascript.
+            </p>
+            <!--This paragraph is a class because it's style is used multiple times on my website-->
+        </section>
+
+        <section id="Table">
+        <table id="Qualifications">
+            <!--Table tag used here to define a table-->
+            <!--The table is an ID because it is used once; and so that it can be styled easily-->
+            <caption>Qualifications</caption>
+            <!--Caption used here to give the table a title to show what it is representing-->
+            <tr>
+                <!--This is the table row-->
+                <th>Level</th>
+                <!--This is the table header-->
+                <th>Subject</th>
+                <th>Grade</th>
+                <th>Date Achieved</th>
+            </tr>
+            <tr>
+                <td>GCSE</td>
+                <!--This is the table data-->
+                <td>English Literature</td>
+                <td>A</td>
+                <td>August 2015</td>
+            </tr>
+            <tr>
+                <td>GCSE</td>
+                <td>Media Studies</td>
+                <td>A</td>
+                <td>August 2015</td>
+            </tr>
+            <tr>
+                <td>GCSE</td>
+                <td>Maths</td>
+                <td>B</td>
+                <td>August 2015</td>
+            </tr>
+            <tr>
+                <td>GCSE</td>
+                <td>Geography</td>
+                <td>B</td>
+                <td>August 2014</td>
+            </tr>
+            <tr>
+                <td>GCSE</td>
+                <td>History</td>
+                <td>B</td>
+                <td>August 2015</td>
+            </tr>
+            <tr>
+                <td>GCSE</td>
+                <td>Religious Studies</td>
+                <td>B</td>
+                <td>August 2014</td>
+            </tr>
+            <tr>
+                <td>GCSE</td>
+                <td>English Language</td>
+                <td>B</td>
+                <td>August 2015</td>
+            </tr>
+            <tr>
+                <td>GCSE</td>
+                <td>Additional Science</td>
+                <td>C</td>
+                <td>August 2015</td>
+            </tr>
+            <tr>
+                <td>GCSE</td>
+                <td>German</td>
+                <td>C</td>
+                <td>August 2013</td>
+            </tr>
+            <tr>
+                <td>A-Level</td>
+                <td>ICT</td>
+                <td>D*</td>
+                <td>August 2017</td>
+            </tr>
+            <tr>
+                <td>A-Level</td>
+                <td>English Literature</td>
+                <td>B</td>
+                <td>August 2017</td>
+            </tr>
+            <tr>
+                <td>A-Level</td>
+                <td>History</td>
+                <td>C</td>
+                <td>August 2017</td>
+            </tr>
+
+        </table>
+        </section>
+
+        <footer class="Footer">
+            <!--Footer has been used; it is at the bottom of the page; it is a class because it is going to be used on al of the pages-->
+            <p class="Link"><a href="http://www.adobe.com/uk/products/aftereffects.html">Link to After Effects</a></p>
+            <!--The paragraph is a class because it is a link inside the footer, and is used on all of the pages - not just once-->
+        </footer>
+
+    </div>
+    <!--This is where the container tag closes; all the content is within the container-->
+
+</body>
+<!--This is the end body tag; everything is inside the body-->
+
+</html>

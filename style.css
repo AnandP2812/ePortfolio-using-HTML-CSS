@@ -1,0 +1,862 @@
+#Container{
+    overflow: auto;
+	background-color: white;
+	margin: auto;              /* This is so that it is directly in the middle of the page */
+	margin-top: 1%;
+	height: auto;
+	width: 70%;
+	border: 2px solid black;
+	word-wrap: break-word;        /* This is so the text doesn't go outside the container */
+}
+
+header{
+	    width: auto;
+        position: relative;
+        background-color: #99ccff;
+        font-family: arial;
+        text-align:center;       /* This makes the text go in the middle */
+        border: 3px solid black;
+		margin-top: 2%;
+        margin-right: 2%;        /* Percentages used to help with responsiveness */
+        margin-left: 2%;
+		margin-bottom: 2%;
+        font-size: 160%;
+        }
+		
+body{
+       height: auto;
+       width: auto;
+       background-color:  #cce2ff;  
+       }
+	   
+	   
+nav{    
+        width: auto;
+		height: auto;
+        font-weight: bold;
+        position: relative;        /* Relative means it is relative to its normal position; it can be adjusted from its current position */
+        margin-right: 2%;
+        margin-left: 2%;
+        background-color: #66b3ff;
+        border: 3px solid black;
+        font-family: arial;
+        text-align: center;
+        font-size: 100%;
+        }
+
+nav ul {    position: relative;
+            list-style: none;
+            display: inline;     /* Inline means that the element is displayed as an inline element*/
+			margin-bottom: 0;
+			margin-top: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			padding-right: 4%;
+		}
+        
+nav li{
+        text-align: center;
+        position: relative;
+        list-style: none;
+        display: inline-block;    /* This displays the element in a inline block container - like a box */
+        padding: 1.7%;
+        }
+        
+nav a{
+       position: relative;
+       color: black;
+       text-decoration: none;
+       margin: auto;
+       }
+       
+nav a:hover{
+       color: #cc0000;
+       }
+	   
+img{
+    margin-top: 2%;
+    margin-left: 2%;
+    bottom: 2%;
+    position: relative;
+	height: 100%;
+	width: 95%;
+	border: 2px solid black;  /* Pixels have also been used for some elements */
+}
+
+#FirstImage{
+    margin-top: 2%;
+    margin-left: 2%;
+    bottom: 2%;
+    position: relative;
+	height: 100%;
+	width: 30%;
+    background-color: none
+    border-style: none;
+    }
+
+article{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    display: inline-block; 
+    text-align: center;
+    position: relative;
+    width: 62.5%;
+    height: 0%;
+    float: right;                /* Float right means that the element goes to the right */
+    background-color:  #ccebff;
+    margin-top: -39.7%;
+    margin-right: 2%;
+    bottom: 2%;
+    border-radius: 25px;
+    border: 2px solid #001f4d;
+    }
+    
+.ContactInfo{
+     line-height: 144%;   /* This adds spacing between lines of paragraphs */
+     font-family: arial;
+     font-size: 1.5vw;     /* VW has been used for the font size because it helps with responsiveness - reducing the window size, the font will decrease */
+     color: #001f4d;
+     word-wrap:break-word;
+     }
+     
+.BoxStyle{                 /* A dot before the name means that it is a class */
+     padding-top: 1%;
+     padding-bottom: 2.5%;
+     padding-left: 2%;
+     padding-right: 2%;
+     float: left;
+	 position: relative;
+	 display: inline-block; 
+	 background-color:  #ccebff;
+	 border-radius: 25px;
+     border: 2px solid #001f4d;
+     width: 92%;
+     height: 100%;
+     min-height: 100%;
+     margin-left: 2%;
+     margin-top: 2%;
+     margin-bottom: 2%;
+	 }
+	
+   .MainHeading{
+    text-align: center; 
+    position: relative;
+	font-family: arial;
+	font-weight: bold;
+    font-size: 2.4vw;
+    color: #001f4d;
+    word-wrap:break-word;
+     }
+
+.MainText{
+     position: relative;
+     font-family: arial;
+     font-size: 1.3vw;
+     color: #001f4d;
+     word-wrap:break-word;
+     }
+     
+     
+#Qualifications{            /* Anything with a hashtag in front of it is an ID */
+    float: right;
+    background-color: #ccebff;
+    width: 96%;
+    margin-right: 2%;
+    margin-top: 5.6%;
+    border: 2px solid #001f4d;
+    }
+   
+caption{
+    margin-top: -4%;
+    margin-bottom: 4%;
+    position: relative;
+	font-family: arial;
+	font-weight: bold;
+    font-size: 2.4vw;
+    color: #001f4d;
+    text-align: center;
+    word-wrap:break-word;
+    }
+    
+    table, th, td {
+    line-height: 170%;
+    padding: 1.2%;
+    font-size: 1.3vw;
+    font-family: arial;
+    border: 1px solid black;
+    border-collapse: collapse;   /* This adds a single border on my table */
+    text-align: center;
+    }
+	
+	table{
+		float: left;      /* Float left means the element will be to the left */
+	}
+	
+.Footer{
+    width: 96%;
+    display: inline-block;
+    position: relative;
+    background-color: #ccebff;
+    float: bottom;
+    margin-top: 2%;        /* Add space above the element*/
+    margin-right: 2%;       /* Add space to the right of the element*/
+    margin-left: 2%;        /* Add space to the left of element*/
+    margin-bottom: 2%;      /* Add space below the element */
+    border-radius: 25px;
+    border: 2px solid #001f4d;
+    }
+    
+.Link a{
+    position: relative;
+    font-weight: bold;    /* This makes the font thicker */
+    color: black;
+    text-align: center;
+    display: block;       /* Displays the element as a block element*/
+    font-family: arial;
+    font-size: 1.4vw;
+    color: #001f4d;
+    word-wrap:break-word;
+     }
+     
+     
+.UnitsTitle{
+    padding-top: 5%;          /* Add space inside the element at the top*/
+    padding-bottom: 10%;       /* Add space inside the element at the bottom*/
+    margin: auto;
+    text-align: center; 
+    position: relative;
+	font-family: arial;
+	font-weight: bold;
+    font-size: 2.4vw;
+    color: #001f4d;
+    word-wrap:break-word;
+    }
+    
+#UnitsUL{
+     padding: 3%;
+     padding-bottom: 16%;
+     width: 44%;
+     margin-top: 2%;
+     margin-left: 2%;
+     margin-bottom: 20px;
+     position: relative; 
+     display: inline;
+     float: left;
+     background-color: #ccebff;
+     border-radius: 25px;
+     border: 2px solid #001f4d;
+     }
+     
+.UnitsLi{
+    word-wrap: break-word;
+    font-size: 1.3vw;
+    font-family: arial;
+    }
+     
+.Img2{
+    position: relative;
+    float: right;
+    width: 99%;
+    height: 42vw;
+    margin-right: 0%;
+    margin-top: 4%;
+    }
+    
+.Img2Wrap{
+   position: relative;
+   margin-right: 2%;
+   float: right;
+   background-color: none;
+   width: 43%;
+   height: auto;
+   }
+   
+#UnitsUL2{
+     float: left;
+     padding: 3%;
+     padding-bottom: 17%;
+     width: 44%;
+     margin-left: -50.3%;
+     height: 100%;
+     margin-top: 65%;
+     position: relative; 
+     display: block;
+     background-color: #ccebff;
+     border-radius: 25px;
+     border: 2px solid #001f4d;
+     }
+
+.ReflectionWRAP{
+    margin-top: 1%;
+    margin-left: 1.5%;
+    position: relative;
+    float: left;    
+    width: 96.6%;
+    height: auto;
+    background-color: none;
+    }
+    
+.ReflectionText{
+     margin-top: -6%;
+     position: relative;
+     font-family: arial;
+     font-size: 1.3vw;
+     color: #001f4d;
+     word-wrap:break-word;
+     }
+     
+.ReflectionInfo{
+     margin-top: -0.5%;
+     padding-top: 1%;
+     padding-bottom: 2.5%;
+     padding-left: 2%;               /* Add space inside the element to the left */   
+     padding-right: 2%;              /* Add space inside the element to the right */
+     display: inline-block; 
+	 background-color:  #ccebff;
+	 border-radius: 25px;
+     border: 2px solid #001f4d;
+     }
+     
+.ReflectionInfo2{
+     margin-top: 2.2%;
+     padding-top: 1%;
+     padding-bottom: 2.5%;
+     padding-left: 2%;
+     padding-right: 2%;
+     display: inline-block; 
+	 background-color:  #ccebff;
+	 border-radius: 25px;
+     border: 2px solid #001f4d;
+     }
+     
+     
+#UnitsUL3{
+     padding: 3%;
+     padding-bottom: 14.5%;
+     width: 44%;
+     margin-top: 2%;
+     margin-left: 2%;
+     position: relative; 
+     display: inline-block;
+     float: left;
+     background-color: #ccebff;
+     border-radius: 25px;
+     border: 2px solid #001f4d;
+     }
+     
+#UnitsUL4{
+     float: left;
+     padding: 3%;
+     padding-bottom: 9.5%;
+     width: 44.3%;
+     margin-left: -50.5%;
+     height: 100%;
+     margin-top: 65.5%;
+     position: relative; 
+     display: block;
+     background-color: #ccebff;
+     border-radius: 25px;
+     border: 2px solid #001f4d;
+     }
+     
+.SkillsInfo{
+     padding-top: 1%;
+     padding-bottom: 2.5%;
+     padding-left: 2%;
+     padding-right: 2%;
+     float: left;
+	 position: relative;
+	 display: inline-block; 
+	 background-color:  #ccebff;
+	 border-radius: 25px;
+     border: 2px solid #001f4d;
+     width: 92%;
+     height: 100%;
+     min-height: 100%;
+     margin-left: 2%;
+     margin-top: 2%;
+     margin-bottom: 0%;
+	 }
+    
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+
+/* This is for responsiveness in terms of the screen size. This means that when the screen's width is less than or equal to 500px, 
+then it will do everything within the braces */
+
+
+nav ul {
+     list-style: none;
+     display: inline;
+	 padding-left: 1%;
+	}
+        
+nav li{
+    display: inline-block;
+    padding: 1.7%;
+    }
+        
+nav a{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    margin: auto;
+    }
+             
+img {
+    left: 38%;
+    width: 240%;
+    }
+    
+article {
+    margin-top: 5%;
+    width: 96%;
+    margin-right: 1.5%;
+    }
+    
+.ContactInfo {
+    font-size: 3.5vw;
+    }
+    
+.MainHeading {
+    font-size: 6vw;
+    }
+    
+.MainText{
+    font-size: 3.5vw;
+    }
+    
+.BoxStyle {
+    width: 92%;
+    margin-left: 1.5%;
+    }
+    
+caption {
+    font-size: 6vw; 
+    margin-top: 2%;
+    }
+    
+table, th, td {
+    font-size: 3.5vw
+    }
+    
+.Link a{
+    font-size: 3.5vw;
+    }
+    
+.UnitsTitle{ 
+    font-size: 6vw;
+    }
+    
+#UnitsUL{
+     width: 89%;
+     margin-top: 2%;
+     margin-left: 2%;
+     display: inline;
+     overflow: hidden;
+     }
+     
+.UnitsLi{
+    margin-left: 5%;
+    word-wrap: break-word;
+    font-size: 3.5vw;
+    }
+    
+.Img2{
+    width: 100%;
+    height: 100vw;
+    margin-right: 37%;
+    }
+    
+.Img2Wrap{
+    margin-top: -5%;
+    background-color: none;
+    width: 95%;
+    }
+
+#UnitsUL2{
+     width: 89%;
+     margin-top: 2%;
+     margin-left: 2%;
+     overflow: hidden;
+     }
+     
+.ReflectionWRAP{
+    margin-top: 5%;
+    }
+    
+.ReflectionText{
+     margin-top: 2%;
+     font-size: 3.5vw;
+     word-wrap:break-word;
+     }
+     
+#UnitsUL3{
+     width: 89%;
+     margin-top: 2%;
+     margin-left: 2%;
+     display: inline;
+     overflow: hidden;
+     }
+     
+#UnitsUL4{
+     width: 89%;
+     margin-top: 2%;
+     margin-left: 2%;
+     }
+     
+}
+     
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+
+/* This is for responsiveness in terms of the screen size. This means that when the screen's width reaches 500px,
+then it will do everything within the braces, but will stop when the screen reaches 700px */
+
+
+nav ul {
+     list-style: none;
+     display: inline;
+	 padding-left: 1%;
+	}
+        
+nav li{
+    display: inline-block;
+    padding: 1.7%;
+    }
+        
+nav a{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    margin: auto;
+    }
+    
+img {
+    left: 80%;
+    width: 150%;
+    }
+    
+article {
+    margin-top: 5%;
+    width: 96%;
+    margin-right: 1.5%;
+    }
+    
+.ContactInfo {
+    font-size: 2.5vw;
+    }
+    
+.MainHeading {
+    font-size: 5vw;
+    }
+    
+.MainText{
+    font-size: 2.5vw;
+    }
+    
+caption {
+    font-size: 5vw;
+    margin-top: 2%;
+    }
+    
+table, th, td {
+    font-size: 2.5vw
+    }
+    
+.Link a{
+    font-size: 2.5vw;
+    }
+    
+.UnitsTitle{ 
+    font-size: 5vw;
+    }
+    
+#UnitsUL{
+     width: 89%;
+     margin-top: 2%;
+     margin-left: 2%;
+     display: inline;
+     overflow: hidden;
+     }
+     
+.UnitsLi{
+    margin-left: 5%;
+    word-wrap: break-word;
+    font-size: 2.5vw;
+    }
+    
+.Img2{
+    width: 100%;
+    height: 100vw;
+    margin-right: 80%;
+    }
+    
+.Img2Wrap{
+    margin-top: -5%;
+    background-color: none;
+    width: 95%;
+    }
+
+#UnitsUL2{
+     width: 89%;
+     margin-top: 2%;
+     margin-left: 2%;
+     overflow: hidden;
+     }
+     
+.ReflectionWRAP{
+    margin-top: 5%;
+    }
+    
+.ReflectionText{
+     margin-top: 2%;
+     font-size: 2.5vw;
+     word-wrap:break-word;
+     }
+     
+#UnitsUL3{
+     width: 89%;
+     margin-top: 2%;
+     margin-left: 2%;
+     overflow: hidden;
+     }
+     
+#UnitsUL4{
+     width: 89%;
+     margin-top: 2%;
+     margin-left: 2%;
+     overflow: hidden;
+     }
+     
+}
+
+
+@media screen and (min-width: 968px) and (max-width: 1300px) {
+
+/* This is for responsiveness in terms of the screen size. This means that when the screen's width reaches 968px,
+then it will do everything within the braces, but will stop when the screen reaches 1300px */
+
+
+nav ul {
+     list-style: none;
+     display: inline;
+	 padding-left: 1%;
+	}
+        
+nav li{
+    display: inline-block;
+    padding: 1.7%;
+    }
+        
+nav a{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    margin: auto;
+    }
+    
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 950px) {
+
+/* This is for responsiveness in terms of the screen size. This means that when the screen's width reaches 700px,
+then it will do everything within the braces, but will stop when the screen reaches 950px */
+
+
+nav ul {
+     list-style: none;
+     display: inline;
+	 padding-left: 1%;
+	}
+        
+nav li{
+    display: inline-block;
+    padding: 1.7%;
+    }
+        
+nav a{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    margin: auto;
+    }
+
+img {
+    left: 0%;
+    width: 100%;
+    }
+    
+article {
+    margin-top: -43%;
+    width: 63%;
+    height: 25vw;
+    margin-right: 1.5%;
+    }
+    
+.ContactInfo {
+    font-size: 2vw;
+    line-height: 1.7vw;
+    }
+    
+.MainHeading {
+    font-size: 3vw;
+    }
+    
+.MainText{
+    font-size: 1.8vw;
+    }
+    
+caption {
+    font-size: 3vw;
+    margin-top: -5%;
+    }
+    
+table, th, td {
+    font-size: 1.8vw
+    }
+    
+.Link a{
+    font-size: 1.8vw;
+    }
+    
+.UnitsTitle{ 
+    margin-top: -1%;
+    margin-bottom: -6%;
+    font-size: 3vw;
+    }
+    
+#UnitsUL{
+     height: 23vw;
+     width: 89%;
+     margin-top: 2%;
+     margin-left: 2%;
+     display: inline;
+     overflow: hidden;
+     }
+     
+.UnitsLi{
+    margin-left: 5%;
+    word-wrap: break-word;
+    font-size: 1.8vw;
+    }
+    
+.Img2{
+    width: 100%;
+    height: 100vw;
+    margin: auto;
+    }
+    
+.Img2Wrap{
+    margin-top: -2%;
+    background-color: red;
+    width: 95%;
+    }
+
+#UnitsUL2{
+    height: 23vw;
+     width: 89%;
+     margin-top: 2%;
+     margin-left: 2%;
+     overflow: hidden;
+     }
+     
+.ReflectionWRAP{
+    margin-top: 5%;
+    }
+    
+.ReflectionText{
+     margin-top: 2%;
+     font-size: 1.8vw;
+     word-wrap:break-word;
+     }
+     
+    
+#UnitsUL3{
+     height: 23vw;
+     width: 89%;
+     margin-top: 2%;
+     margin-left: 2%;
+     display: inline;
+     overflow: hidden;
+     }
+ 
+#UnitsUL4{
+     height: 28vw;
+     width: 89%;
+     margin-top: 2%;
+     margin-left: 2%;
+     display: inline;
+     overflow: hidden;
+     }
+     
+}
+
+
+
+@media screen and (min-device-width: 300px) and (max-device-width: 415px) {
+
+/* This is for responsiveness in terms of mobile devices. This means that the website will support mobile devices
+that have a minimum screen width of 300px and a maximum if 415px. If the screen size is more than 415px,
+then the website will not work on that device properly. */
+
+
+header{
+	 width: auto;
+     font-size: 80%;
+    }
+        
+#Container{
+	background-color: white;
+	width: 100%;
+	}
+	
+nav{    
+    font-size: 80%;
+    }
+        
+nav li{
+    display: inline-block;
+    padding: 1.2%;
+    }
+    
+img{
+    width: 130%;
+    left: 26vw;
+    }
+    
+.Img2{
+    width: 100%;
+    height: 100vw;
+    margin-right: 28.5%;
+    }
+    
+    
+          
+        
+}
+
+
+
+
+
+
+	
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

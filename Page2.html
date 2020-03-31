@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This sets the viewport, which provides the browser with instructions on controlling the page's dimensions etc.-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--This is the reference to my external style sheet; all my styles are on one style sheet-->
+    <title>Units 1 & 2</title>
+    <!--This sets the title of the page in the tab on the browser-->
+</head>
+
+<body>
+    <!--All my content goes inside the body because it contains all the elements of the HTML document-->
+
+    <div id="Container">
+        <!--div tag used to contain all of the HTML elements; it is not closed here - it is closed at the bottom of the HTML document-->
+
+        <header>
+            <!--Header is directly at the top of the page-->
+            <h1>Anand Prajapati's E-Portfolio</h1>
+            <!--Title of my website; it is text to help with accessibility - it is top of the page-->
+            <!--h1 means that it is a heading and has a set style-->
+        </header>
+
+        <nav>
+            <!--This is a navigation bar under the header-->
+            <ul>
+                <!--This specifies that my navigation bar links are in a unordered list-->
+                <li><a href="Home.html">About Me</a></li>
+                <!--Navigation bar links; list tag used on each link so they can form a list of items-->
+                <li><a href="Page2.html">Web Development & Programming</a></li>
+                <li><a href="Page3.html">IS & Computer Fundamentals</a></li>
+                <li><a href="Page4.html">Development Plan</a></li>
+            </ul>
+        </nav>
+
+        <section id="WebSection">
+        <ul id="UnitsUL">
+            <!--Unordered list used here to list the different units; it is an ID, as it is onlt used once-->
+            <h1 class="UnitsTitle">Web Development Units</h1>
+            <!--h1 class means that the heading is used multiple times on the HTML document-->
+            <li class="UnitsLi">Principles of web standards, HTML5 semantic mark up, client server model, managing the presentation via style sheets, interaction using PHP on the server side and JavaScript on the client side</li>
+            <!--List been used here to list al of the units; it is a class because it is used multiple times on this page, and another-->
+            <li class="UnitsLi">Using advanced tools for development and design</li>
+            <li class="UnitsLi">The Document Object Model element selection and manipulation using jQuery </li>
+            <li class="UnitsLi">The creation of standards compliant HTML5 video; effective web pages with AMP systems and script on the server side using PHP with MySQL. The main principle for scripting will be the development and understanding of code that is readable and listens for/responds to browser and user events by manipulating DOM elements. </li>
+        </ul>
+        </section>
+
+        <aside class="Img2Wrap">
+            <!--Aside used here to have the image aside from the text content; it is a class, as it is used multiple times; it's used to contain an image-->
+            <img class="Img2" src="Images/Web.jpeg" alt="Web Design Code Image"/>
+            <!--This is an image; it is used multiple times in the same position on another page, and this page-->
+        </aside>
+
+        <section id="ProgrammingSection">
+        <ul id="UnitsUL2">
+            <!--Unordered list used here to list the different units; it is an ID, as it is onlt used once-->
+            <h1 class="UnitsTitle">Programming Units</h1>
+            <!--h1 class means that the heading is used multiple times on the HTML document-->
+            <li class="UnitsLi">Introduction to programming using Java</li>
+            <!--List been used here to list al of the units; it is a class because it is used multiple times on this page, and another-->
+            <li class="UnitsLi">Importance of correctly finding problems, nature of software development and software maintenance</li>
+            <li class="UnitsLi">Design methodology: for example, top-down design method using step-wise refinement to create pseudo-code answers to problems, integrating constructs for sequence selection, abstraction, iteration and re-use</li>
+            <li class="UnitsLi">Simple debugging strategies and more professional approaches to testing</li>
+            <li class="UnitsLi">Software maintenance and developing a formal approach to coding</li>
+            <li class="UnitsLi">Data types – primitive types: variables, arrays, constants and simple structured data</li>
+        </ul>
+        </section>
+
+        <aside class="Img2Wrap">
+            <img class="Img2" src="Images/Processing.jpeg" alt="Processing Image"/>
+        </aside>
+
+        <div class="ReflectionWRAP">
+            <!--DIV has been used here as a class to wrap content; it is a class because it is used on this page and another one as well-->
+
+            <section class="ReflectionInfo">
+                <!--Section used here to define a section of information on the document; it is a class because it is used multiple times on the document-->
+                <h1 class="UnitsTitle">Personal Reflection (Web Development)</h1>
+                <!--h1 class means that the heading is used multiple times on the HTML document-->
+                <p class="ReflectionText">In this unit, I have learned how to set up a basic HTML document - which includes how to use all the different tags appropriately. Also, during my lab sessions, I fully understand how both Classes and IDs, along with the difference between them both - and when to use them. Before, I didn't fully understand the difference between them, as I have done web development before (as part of my A-Level ICT course), though the lectures and lab session have benefited me in order to understand this unit in more detail. Even though I have done web development before, in the past, I did not understand CSS. Nonetheless, during the course of this unit, I fully understand how CSS works thanks to the lab sessions; the benefit of this is that I can style web pages the way I want, without having to ask for assistance or help. Overall, I think this is my best unit out of the four - the reason is that I have done web development before, and I find it fascinating how you can implement so many things on a website. However, even though this is my strongest unit, I did find responsiveness quite difficult to implement on my website, unfortunately.
+                    <!--Paragraph has been used here to show some text; it is a class because it is used multiple times throughout the document-->
+                </p>
+            </section>
+
+            <section class="ReflectionInfo2">
+                <h1 class="UnitsTitle">Personal Reflection (Programming)</h1>
+                <p class="ReflectionText">Out of all the units I study, I feel that this unit is the most difficult because I am new to programming and I have never done it before. I have learned a lot in this unit - for example: I have learned the basics of Java using X and Y coordinates, in order to draw basic lines and shapes on screen - this is something that I find quite easy. Further to that, I have learned more complex principles of Java - this includes procedures, loops and animations - I find animations and procedures quite difficult to understand at the moment, whereas, with loops, I do understand them thanks to a bit of practise. I feel that I need to spend more time on animations and procedures, so I have a better understanding on how they work; and so that I can do it myself. As well as that, I do enjoy this unit because I feel that I am gaining the skills and knowledge in order to be more successful in the future. However, I must put more time and work into this unit when it comes to my spare time.
+                </p>
+            </section>
+
+        </div>
+
+        <footer class="Footer">
+            <!--Footer has been used; it is at the bottom of the page; it is a class because it is going to be used on al of the pages-->
+            <p class="Link"><a href="https://www.w3schools.com/html/">Link to w3schools</a></p>
+            <p class="Link"><a href="https://processing.org/">Link to Processing</a></p>
+            <!--The paragraph is a class because it is a link inside the footer, and is used on all of the pages - not just once-->
+        </footer>
+
+    </div>
+    <!--This is where the container tag closes; all the content is within the container-->
+
+</body>
+<!--This is the end body tag; everything is inside the body-->
+
+</html>
